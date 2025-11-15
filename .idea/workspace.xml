@@ -6,14 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0a3f8fe0-74e6-476b-a948-0847f3f97ecf" name="Changes" comment="Update files.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ANALISYS_DATA/neighborhood_count.png" beforeDir="false" afterPath="$PROJECT_DIR$/ANALISYS_DATA/neighborhood_count.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GEO_DATA_FILE/DF_geodata_unified.gpkg" beforeDir="false" afterPath="$PROJECT_DIR$/GEO_DATA_FILE/DF_geodata_unified.gpkg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GEO_DATA_FILE/properties_enriched.gpkg" beforeDir="false" afterPath="$PROJECT_DIR$/GEO_DATA_FILE/properties_enriched.gpkg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Geospatial_Analysis_of_Housing_Data.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Geospatial_Analysis_of_Housing_Data.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MODEL_RESULTS/linear_model_summary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MODEL_RESULTS/linear_model_summary.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MODEL_RESULTS/linear_regression_actual_vs_predicted.png" beforeDir="false" afterPath="$PROJECT_DIR$/MODEL_RESULTS/linear_regression_actual_vs_predicted.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MODEL_RESULTS/randomforest_actual_vs_predicted.png" beforeDir="false" afterPath="$PROJECT_DIR$/MODEL_RESULTS/randomforest_actual_vs_predicted.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MODEL_RESULTS/randomforest_feature_importance.png" beforeDir="false" afterPath="$PROJECT_DIR$/MODEL_RESULTS/randomforest_feature_importance.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +118,7 @@
       <workItem from="1763076426178" duration="3028000" />
       <workItem from="1763079502735" duration="9000" />
       <workItem from="1763079549222" duration="887000" />
-      <workItem from="1763214581557" duration="2690000" />
+      <workItem from="1763214581557" duration="5173000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -287,7 +280,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763080292694</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Update files.">
+      <option name="closed" value="true" />
+      <created>1763217405798</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1763217405798</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
