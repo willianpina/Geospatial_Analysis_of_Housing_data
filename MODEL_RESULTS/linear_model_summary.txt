@@ -1,65 +1,64 @@
                             OLS Regression Results                            
 ==============================================================================
-Dep. Variable:                  valor   R-squared:                       0.569
-Model:                            OLS   Adj. R-squared:                  0.564
-Method:                 Least Squares   F-statistic:                     126.7
-Date:                Thu, 13 Nov 2025   Prob (F-statistic):               0.00
-Time:                        21:19:36   Log-Likelihood:                -58267.
-No. Observations:                3785   AIC:                         1.166e+05
-Df Residuals:                    3745   BIC:                         1.169e+05
-Df Model:                          39                                         
+Dep. Variable:                  valor   R-squared:                       0.341
+Model:                            OLS   Adj. R-squared:                  0.335
+Method:                 Least Squares   F-statistic:                     51.27
+Date:                Sat, 15 Nov 2025   Prob (F-statistic):          8.33e-307
+Time:                        11:08:47   Log-Likelihood:                -59255.
+No. Observations:                3797   AIC:                         1.186e+05
+Df Residuals:                    3758   BIC:                         1.188e+05
+Df Model:                          38                                         
 Covariance Type:            nonrobust                                         
 ========================================================================================
                            coef    std err          t      P>|t|      [0.025      0.975]
 ----------------------------------------------------------------------------------------
-const                -2.641e+06   9.48e+04    -27.853      0.000   -2.83e+06   -2.46e+06
-aceita_pets           -1.16e+05    5.9e+04     -1.967      0.049   -2.32e+05    -398.404
-aquecimento_solar     2.302e+05    6.8e+04      3.384      0.001    9.68e+04    3.64e+05
-ar_condicionado       8.894e+04   4.73e+04      1.879      0.060   -3858.206    1.82e+05
-area_lazer           -7.108e+04   6.93e+04     -1.026      0.305   -2.07e+05    6.47e+04
-area_servico          2.161e+05   5.82e+04      3.712      0.000    1.02e+05     3.3e+05
-area_util             2381.7523     89.132     26.722      0.000    2207.000    2556.504
-cond_valor              -0.7011      0.445     -1.577      0.115      -1.573       0.171
-cozinha_com_armarios -8.393e+04   6.12e+04     -1.371      0.170   -2.04e+05    3.61e+04
-cozinha_espacosa      2.458e+05   1.39e+05      1.770      0.077   -2.65e+04    5.18e+05
-despensa              1.612e+05   5.83e+04      2.764      0.006    4.69e+04    2.76e+05
-escritorio            1.748e+05   4.96e+04      3.526      0.000    7.76e+04    2.72e+05
-gas_canalizado       -1.115e+05   6.97e+04     -1.601      0.110   -2.48e+05    2.51e+04
-gerador_energia       8811.3587   8.96e+04      0.098      0.922   -1.67e+05    1.84e+05
-guarita              -7.976e+04   5.92e+04     -1.347      0.178   -1.96e+05    3.63e+04
-home_theater          4.247e+05   8.34e+04      5.093      0.000    2.61e+05    5.88e+05
-interfone            -3.285e+04   5.06e+04     -0.650      0.516   -1.32e+05    6.63e+04
-jardim                 6.76e+04   5.66e+04      1.194      0.233   -4.34e+04    1.79e+05
-lavabo                1.564e+05   5.47e+04      2.862      0.004    4.93e+04    2.64e+05
-lazer_no_pilotis     -1.257e+05   9.37e+04     -1.341      0.180   -3.09e+05    5.81e+04
-mobiliado            -1.381e+05   8.04e+04     -1.719      0.086   -2.96e+05    1.95e+04
-pintura_nova          1.443e+04   6.83e+04      0.211      0.833    -1.2e+05    1.48e+05
-piscina               2.296e+05   5.07e+04      4.527      0.000     1.3e+05    3.29e+05
-piso_porcelanato     -1.588e+05   6.88e+04     -2.308      0.021   -2.94e+05   -2.39e+04
-playground           -1.352e+05   5.58e+04     -2.423      0.015   -2.45e+05   -2.58e+04
-portao_eletronico    -1.533e+05   5.71e+04     -2.684      0.007   -2.65e+05   -4.13e+04
-projeto_iluminacao     665.3640   7.17e+04      0.009      0.993    -1.4e+05    1.41e+05
-quadra_poliesportiva  8560.0594   6.66e+04      0.129      0.898   -1.22e+05    1.39e+05
-quartos               2.354e+05   2.39e+04      9.837      0.000    1.88e+05    2.82e+05
-sala_ginastica        1.186e+04   7.73e+04      0.153      0.878    -1.4e+05    1.63e+05
-salao_festas         -2.122e+05   6.54e+04     -3.246      0.001    -3.4e+05    -8.4e+04
-salao_gourmet        -2.106e+05   6.62e+04     -3.182      0.001    -3.4e+05   -8.08e+04
-salao_jogos          -1.954e+05   7.51e+04     -2.603      0.009   -3.43e+05   -4.82e+04
-sauna                 -7.43e+04    6.1e+04     -1.218      0.223   -1.94e+05    4.53e+04
-spa                  -2.068e+05   1.37e+05     -1.515      0.130   -4.74e+05    6.09e+04
-suites                 3.27e+05   2.11e+04     15.526      0.000    2.86e+05    3.68e+05
-vagas                 9.638e+04   1.12e+04      8.606      0.000    7.44e+04    1.18e+05
-varanda               1.801e+05   5.22e+04      3.449      0.001    7.77e+04    2.82e+05
-vista_livre           3.428e+04   6.34e+04      0.541      0.589   -8.99e+04    1.58e+05
-preco_m2               215.8180      5.037     42.848      0.000     205.943     225.693
+const                 1.509e+05   8.24e+04      1.831      0.067   -1.07e+04    3.12e+05
+aceita_pets          -6.198e+04   7.27e+04     -0.853      0.394   -2.04e+05    8.05e+04
+aquecimento_solar     2.207e+05   8.38e+04      2.633      0.008    5.64e+04    3.85e+05
+ar_condicionado        2.47e+05   5.82e+04      4.245      0.000    1.33e+05    3.61e+05
+area_lazer            -1.78e+05   8.52e+04     -2.091      0.037   -3.45e+05   -1.11e+04
+area_servico          2.842e+05   7.17e+04      3.963      0.000    1.44e+05    4.25e+05
+area_util              529.1118     71.469      7.403      0.000     388.989     669.234
+cond_valor              -0.5455      0.549     -0.993      0.321      -1.622       0.531
+cozinha_com_armarios -5.661e+04   7.53e+04     -0.752      0.452   -2.04e+05    9.11e+04
+cozinha_espacosa      3.663e+05   1.71e+05      2.144      0.032    3.13e+04    7.01e+05
+despensa              8.418e+04    7.2e+04      1.170      0.242   -5.69e+04    2.25e+05
+escritorio             8.99e+04    6.1e+04      1.473      0.141   -2.97e+04     2.1e+05
+gas_canalizado        9.212e+04   8.54e+04      1.079      0.281   -7.52e+04    2.59e+05
+gerador_energia       1.491e+05    1.1e+05      1.350      0.177   -6.74e+04    3.66e+05
+guarita              -7.059e+04    7.3e+04     -0.966      0.334   -2.14e+05    7.26e+04
+home_theater          4.628e+05   1.03e+05      4.503      0.000    2.61e+05    6.64e+05
+interfone             2.215e+05    6.2e+04      3.572      0.000    9.99e+04    3.43e+05
+jardim               -1.873e+05   6.95e+04     -2.696      0.007   -3.24e+05   -5.11e+04
+lavabo                1.984e+05   6.73e+04      2.947      0.003    6.64e+04     3.3e+05
+lazer_no_pilotis       1.37e+05   1.15e+05      1.189      0.235    -8.9e+04    3.63e+05
+mobiliado             1.647e+05   9.88e+04      1.667      0.096    -2.9e+04    3.58e+05
+pintura_nova          8534.5398   8.43e+04      0.101      0.919   -1.57e+05    1.74e+05
+piscina               2.907e+05   6.25e+04      4.648      0.000    1.68e+05    4.13e+05
+piso_porcelanato     -3.621e+05   8.47e+04     -4.275      0.000   -5.28e+05   -1.96e+05
+playground           -1.713e+05   6.88e+04     -2.489      0.013   -3.06e+05   -3.64e+04
+portao_eletronico    -1.622e+05   7.04e+04     -2.303      0.021      -3e+05   -2.41e+04
+projeto_iluminacao    2.322e+04   8.84e+04      0.263      0.793    -1.5e+05    1.97e+05
+quadra_poliesportiva -3.592e+05   8.14e+04     -4.413      0.000   -5.19e+05      -2e+05
+quartos               8.597e+04   2.86e+04      3.004      0.003    2.99e+04    1.42e+05
+sala_ginastica        2.486e+05   9.48e+04      2.624      0.009    6.28e+04    4.34e+05
+salao_festas          2.143e+05   7.91e+04      2.710      0.007    5.93e+04    3.69e+05
+salao_gourmet        -2.298e+05   8.15e+04     -2.820      0.005    -3.9e+05   -7.01e+04
+salao_jogos          -3.533e+05   9.23e+04     -3.829      0.000   -5.34e+05   -1.72e+05
+sauna                 2.799e+05   7.44e+04      3.764      0.000    1.34e+05    4.26e+05
+spa                  -3.932e+05   1.68e+05     -2.342      0.019   -7.22e+05    -6.4e+04
+suites                4.212e+05   2.57e+04     16.371      0.000    3.71e+05    4.72e+05
+vagas                 6.946e+04   1.35e+04      5.154      0.000     4.3e+04    9.59e+04
+varanda               5.945e+04   6.43e+04      0.925      0.355   -6.66e+04    1.85e+05
+vista_livre           1.552e+05    7.8e+04      1.989      0.047    2191.501    3.08e+05
 ==============================================================================
-Omnibus:                     3390.547   Durbin-Watson:                   2.006
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):           411401.726
-Skew:                           3.763   Prob(JB):                         0.00
-Kurtosis:                      53.517   Cond. No.                     4.30e+05
+Omnibus:                     3904.496   Durbin-Watson:                   1.953
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           429958.317
+Skew:                           4.846   Prob(JB):                         0.00
+Kurtosis:                      54.222   Cond. No.                     4.28e+05
 ==============================================================================
 
 Notes:
 [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-[2] The condition number is large, 4.3e+05. This might indicate that there are
+[2] The condition number is large, 4.28e+05. This might indicate that there are
 strong multicollinearity or other numerical problems.
